@@ -1,0 +1,22 @@
+{
+  "name": "noisejs",
+  "version": "2.0.0",
+  "description": "Perlin noise implementation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xixixao/noisejs.git"
+  },
+  "keywords": [
+    "perlin",
+    "noise",
+    "simplex"
+  ],
+  "author": "Joseph Gentle",
+  "bugs": {
+    "url": "https://github.com/josephg/noisejs/issues"
+  }
+}
