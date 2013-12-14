@@ -1,0 +1,15 @@
+{
+  "name": "noisejs",
+  "version": "2.1.0",
+  "description": "Perlin noise implementation",
+  "main": "index.js",
+  "keywords": [
+    "perlin",
+    "noise",
+    "simplex"
+  ],
+  "author": "Joseph Gentle",
+  "bugs": {
+    "url": "https://github.com/josephg/noisejs/issues"
+  }
+}
