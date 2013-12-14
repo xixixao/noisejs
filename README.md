@@ -6,7 +6,7 @@ The library is pretty fast (10M queries / sec). But its still way slower than us
 
 The code is based on Stefan Gustavson's implementation. Do whatever you want with it, etc.
 
-## How to make noise:
+## How to make noise
 
 ```javascript
 // value passed into the constructor is used as a seed
@@ -29,4 +29,20 @@ The library exposes a constructor function called `Noise` with the following ins
 - **perlin2(x, y)**: 2D Perlin noise function
 - **perlin3(x, y, z)**: 3D Perlin noise function
 - **seed(val)**: Seed the noise functions. Only 65536 different seeds are supported. Use a float between 0 and 1 or an integer from 1 to 65536.
+
+
+## Installation
+
+```bash
+npm install noisejs
+```
+or
+
+```bash
+bower install noisejs
+```
+
+Node.js, Require.js (AMD) and Common.js supported: `var Noise = require('noisejs');`
+
+Otherwise a `Noise` global is created.
 
