@@ -322,6 +322,12 @@
        v);
   };
 
-  global.Noise = Noise;
+  if (typeof module === "object" && module && typeof module.exports === "object") {
+    module.exports = Noise;
+  } else if (typeof define === "function" && define.amd) {
+    define([], function () { return Noise; } );
+  } else {
+    global.Noise = Noise;
+  }
 
-})(typeof module === "undefined" ? this : module.exports);
+})(this);

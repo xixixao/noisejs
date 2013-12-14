@@ -1,6 +1,6 @@
 {
   "name": "noisejs",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "description": "Perlin noise implementation",
   "main": "index.js",
   "scripts": {
