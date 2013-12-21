@@ -1,3 +1,5 @@
+This a fork of [josephg/noisejs](https://github.com/josephg/noisejs) which enables generating noise values from several seeds at the same time, by providing an instance-based API (instead of the original functional one).
+
 # NOISE!
 
 This is a simple library for 2d & 3d perlin noise and simplex noise in javascript. Noise is [pretty](https://dl.dropbox.com/u/2494815/perlin/index.html).
